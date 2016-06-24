@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	
+	<div id="header">
+		<div class="logo"><img src="images/logo.gif"></div>
+		<div class="member">个人中心
+			<ul class="member_ul">
+				<li><a href="javascript:;">设置</a></li>
+				<li><a href="javascript:;">换肤</a></li>
+				<li><a href="javascript:;">帮助</a></li>
+				<li><a href="javascript:;">退出</a></li>
+			</ul>
+		</div>
+		<div class="login">
+			登录
+		</div>
+	</div>
+
+
+	<!-- 登录框 -->
+	<div id="login">
+		<form name="login">
+	    	<h2><img src="images/close.png" alt="关闭" class="close"/>网站登录</h2>
+	        <div class="info"></div>
+	        <div class="user">帐号：<input type="text" class="text" name="user"/></div>
+	        <div class="pass">密码：<input type="password" class="text" name="pass"/></div>
+	        <div class="button"><input type="button" class="submit" name="subm"/></div>
+	        <div class="other">注册新用户 | 忘记密码?</div>
+      	</form>
+	</div>
+
+	<!-- 遮罩层 -->
+	<div id="screen"></div>
+
+	<script src="js/tool.js"></script>
+	<script src="js/base.js"></script>
+	<script src="js/index.js"></script>
+</body>
+</html>

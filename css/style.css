@@ -1,0 +1,144 @@
+body{
+  font-size:12px;
+  background: url(../images/header_bg.png) repeat-x;
+}
+
+
+/*头部*/
+#header{
+  width:900px;
+  height:30px;
+  margin:0 auto;
+}
+#header .logo{
+  width: 100px;
+  height:30px;
+  float:left;
+}
+#header .logo img{
+  display: block;
+}
+
+#header .member{
+  position: relative;
+  width:70px;
+  height:30px;
+  line-height:30px;
+  float: right;
+  cursor: pointer;
+  background: url(../images/arrow.png) no-repeat 55px center;
+}
+
+#header ul{
+  display: none;
+  position: absolute;
+  top:30px;
+  left:0;
+  padding:10px 0 0 0;
+  width:100px;
+  height:120px;
+  border:1px solid #999;
+  border-top:none;
+  background: #fbf7e1;
+}
+#header ul li{
+  height:25px;
+  line-height: 25px;
+  text-indent:20px;
+}
+#header ul li a{
+  display: block;
+  color:#333;
+  background: url(../images/arrow3.gif) no-repeat 5px center;
+}
+#header ul li a:hover{
+  background:#fc0 url(../images/arrow4.gif) no-repeat 5px center;
+}
+
+#header .login{
+  float: right;
+  width:35px;
+  height:30px;
+  line-height: 30px;
+  cursor: pointer;
+}
+
+/*登录框*/
+#login {
+  display: none;
+  width:350px;
+  height:250px;
+  border:1px solid #ccc;
+  position:absolute;
+  z-index:9999;
+  background:#FFF;
+}
+#login h2 {
+  font-size:14px;
+  color:#666;
+  height:40px;
+  line-height:40px;
+  background:url(../images/login_header.png) repeat-x;
+  letter-spacing:1px;
+  text-align:center;
+  border-bottom:1px solid #ccc;
+  cursor:move;
+}
+#login h2 img {
+  position:relative;
+  top:12px;
+  right:8px;
+  float:right;
+  cursor:pointer;
+}
+#login div.user,#login div.pass {
+  font-size:14px;
+  color:#666;
+  padding:5px 0;
+  text-align:center;
+}
+#login input.text {
+  width:200px;
+  height:25px;
+  line-height:25px;
+  border:1px solid #ccc;
+  background:#fff;
+  font-size:14px;
+}
+#login input.submit {
+  width:107px;
+  height:30px;
+  background:url(../images/login_button.png) no-repeat left;
+  border:none;
+  cursor:pointer;
+}
+#login .button {
+  text-align:center;
+  padding:15px 0;
+}
+#login .other {
+  text-align:right;
+  padding:15px 10px;
+  color:#666;
+}
+#login .info {
+  text-align:center;
+  padding:15px 0 5px 0;
+  color:maroon;
+}
+
+
+
+/*  遮罩锁屏 */
+#screen{
+  background:#000;
+  z-index:9998;
+  position:absolute;
+  top:0;
+  left:0;
+  filter:alpha(opacity=0);
+  opacity:0.5;
+  display:none;
+}
+
+
